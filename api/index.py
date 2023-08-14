@@ -52,7 +52,7 @@ async def read_root():
 
 @app.get("/stream_file")
 async def stream_file(request: Request):
-    url = "https://codeload.github.com/2dust/v2rayN/zip/refs/heads/master"  # 替换为实际的文件 URL
+    url = "https://codeload.github.com/pojiezhiyuanjun/freev2/zip/refs/heads/master"  # 替换为实际的文件 URL
     block_size = 64 * 1024  # 调整块的大小
 
     response = requests.get(url)
