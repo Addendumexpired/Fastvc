@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/")
+@app.route('/')
 async def root():
     return {"message": "Hello World"}
 
